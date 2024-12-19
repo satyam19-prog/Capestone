@@ -1,0 +1,71 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 60px;
+    background-color: rgb(41, 39, 39);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header input {
+    width: 60%;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    padding-left: 10px;
+}
+
+header input:focus {
+    outline: none;
+    border-color: #ff0000;
+}
+
+.nav {
+    background-color: #f8f8f8;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav li {
+    margin: 0 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav li:hover {
+    text-decoration: underline;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+iframe {
+    max-width: 100%;
+    width: 560px;
+    height: 315px;
+    border-radius: 10px;
+}

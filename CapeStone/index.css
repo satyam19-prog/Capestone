@@ -23,6 +23,7 @@ header nav a{
     border-radius: 56px;
 }
 .grid{
+    height: 1600px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
